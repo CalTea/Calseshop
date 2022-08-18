@@ -1,3 +1,5 @@
+import {Container} from 'react-bootstrap'
+import './bootstrap.min.css'
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
@@ -5,8 +7,10 @@ const App = ()  => {
   return (
     <>
     <Header />
-    <main>
-      <h1>Cals Shop</h1>
+    <main className='py-3'>
+      <Container>
+        <h1>Cals Shop</h1>
+      </Container>
     </main>
     <Footer />
     </>
